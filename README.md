@@ -49,6 +49,8 @@ time-series/
 |---|---|
 | [**ARIMA Simulation & Case Studies**](apps/arima-simulation/) | Simulate AR/MA/ARMA/ARIMA processes, explore ACF/PACF, and follow Box–Jenkins case studies. Runs offline in any browser. |
 
+🌐 **Try it online:** the ARIMA app is also available at **https://novrisuhermi-arima.share.connect.posit.cloud**
+
 ## ⚙️ Getting Started
 
 Most code is written in **R**. Install the main packages with:
