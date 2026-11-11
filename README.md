@@ -20,7 +20,8 @@ The materials cover classical Box–Jenkins modelling, time series econometrics,
 time-series/
 ├── apps/            # Interactive apps
 │   ├── arima-simulation/   # ARIMA simulation & case studies (HTML)
-│   └── sarima-simulation/  # SARIMA simulation & case studies (HTML)
+│   ├── sarima-simulation/  # SARIMA simulation & case studies (HTML)
+│   └── tf-simulation/      # Transfer function simulation & case studies (HTML)
 ├── slides/          # Lecture slides (PDF / HTML)
 ├── notes/           # Lecture notes and handouts
 ├── code/            # R scripts per topic
@@ -50,11 +51,13 @@ time-series/
 |---|---|
 | [**ARIMA Simulation & Case Studies**](apps/arima-simulation/) | Simulate AR/MA/ARMA/ARIMA processes, explore ACF/PACF, and follow Box–Jenkins case studies. Runs offline in any browser. |
 | [**SARIMA Simulation & Case Studies**](apps/sarima-simulation/) | Simulate seasonal ARIMA processes, explore seasonal patterns in the ACF/PACF, and follow Box–Jenkins case studies on seasonal data. Runs offline in any browser. |
+| [**Transfer Function Simulation & Case Studies**](apps/tf-simulation/) | Simulate input–output systems, prewhiten series, identify $(b, r, s)$ from the CCF, and follow transfer function case studies. Runs offline in any browser. |
 
 🌐 **Try them online:**
 
 - ARIMA app: **https://novrisuhermi-arima.share.connect.posit.cloud**
 - SARIMA app: **https://novrisuhermi-sarima.share.connect.posit.cloud**
+- Transfer Function app: **https://novrisuhermi-tf.share.connect.posit.cloud**
 
 ## ⚙️ Getting Started
 
