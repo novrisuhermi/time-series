@@ -19,7 +19,8 @@ The materials cover classical Box–Jenkins modelling, time series econometrics,
 ```
 time-series/
 ├── apps/            # Interactive apps
-│   └── arima-simulation/   # ARIMA simulation & case studies (HTML)
+│   ├── arima-simulation/   # ARIMA simulation & case studies (HTML)
+│   └── sarima-simulation/  # SARIMA simulation & case studies (HTML)
 ├── slides/          # Lecture slides (PDF / HTML)
 ├── notes/           # Lecture notes and handouts
 ├── code/            # R scripts per topic
@@ -48,8 +49,12 @@ time-series/
 | App | Description |
 |---|---|
 | [**ARIMA Simulation & Case Studies**](apps/arima-simulation/) | Simulate AR/MA/ARMA/ARIMA processes, explore ACF/PACF, and follow Box–Jenkins case studies. Runs offline in any browser. |
+| [**SARIMA Simulation & Case Studies**](apps/sarima-simulation/) | Simulate seasonal ARIMA processes, explore seasonal patterns in the ACF/PACF, and follow Box–Jenkins case studies on seasonal data. Runs offline in any browser. |
 
-🌐 **Try it online:** the ARIMA app is also available at **https://novrisuhermi-arima.share.connect.posit.cloud**
+🌐 **Try them online:**
+
+- ARIMA app: **https://novrisuhermi-arima.share.connect.posit.cloud**
+- SARIMA app: **https://novrisuhermi-sarima.share.connect.posit.cloud**
 
 ## ⚙️ Getting Started
 
