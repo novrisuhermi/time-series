@@ -18,6 +18,10 @@ $$Y_t = c + \sum_{j} \frac{\omega_j(B)}{\delta_j(B)} B^{b_j} X_{j,t} + N_t$$
 
 ## How to Use
 
+### Online
+
+Open the app directly in your browser: **https://novrisuhermi-ts-sim.share.connect.posit.cloud**
+
 ### Offline
 
 1. Download [`Time_Series_Data_Generator.html`](Time_Series_Data_Generator.html) (click the file, then the **Download raw file** button).

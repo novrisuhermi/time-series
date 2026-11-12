@@ -60,6 +60,7 @@ time-series/
 - ARIMA app: **https://novrisuhermi-arima.share.connect.posit.cloud**
 - SARIMA app: **https://novrisuhermi-sarima.share.connect.posit.cloud**
 - Transfer Function app: **https://novrisuhermi-tf.share.connect.posit.cloud**
+- Data Generator app: **https://novrisuhermi-ts-sim.share.connect.posit.cloud**
 
 ## ⚙️ Getting Started
 
