@@ -22,6 +22,7 @@ time-series/
 │   ├── arima-simulation/   # ARIMA simulation & case studies (HTML)
 │   ├── sarima-simulation/  # SARIMA simulation & case studies (HTML)
 │   ├── tf-simulation/      # Transfer function simulation & case studies (HTML)
+│   ├── calendar-variation/ # Calendar variation simulation & case studies (HTML)
 │   └── data-generator/     # Data generator: ARIMA, SARIMA & transfer function (HTML)
 ├── slides/          # Lecture slides (PDF / HTML)
 ├── notes/           # Lecture notes and handouts
@@ -40,11 +41,12 @@ time-series/
    $$\phi_p(B)(1-B)^d Z_t = \theta_0 + \theta_q(B)\, a_t$$
 
 4. **Seasonal ARIMA** — multiplicative SARIMA $(p,d,q)(P,D,Q)_s$
-5. **Transfer function and intervention models** — modelling dynamic input–output relationships
-6. **Multivariate time series** — VAR, Granger causality, cointegration, VECM
-7. **Volatility models** — ARCH/GARCH for financial series
-8. **Forecasting with machine learning** — lag features, tree ensembles, neural networks, rolling-origin evaluation
-9. **Forecast evaluation** — MAE, RMSE, MAPE, MASE; out-of-sample validation
+5. **Calendar variation models** — moving holidays (Ramadan, Idul Fitri, Idul Adha), month dummies and proportional window regressors, regression with seasonal ARIMA errors
+6. **Transfer function and intervention models** — modelling dynamic input–output relationships
+7. **Multivariate time series** — VAR, Granger causality, cointegration, VECM
+8. **Volatility models** — ARCH/GARCH for financial series
+9. **Forecasting with machine learning** — lag features, tree ensembles, neural networks, rolling-origin evaluation
+10. **Forecast evaluation** — MAE, RMSE, MAPE, MASE; out-of-sample validation
 
 ## 🖥️ Interactive Tools
 
@@ -53,6 +55,7 @@ time-series/
 | [**ARIMA Simulation & Case Studies**](apps/arima-simulation/) | Simulate AR/MA/ARMA/ARIMA processes, explore ACF/PACF, and follow Box–Jenkins case studies. Runs offline in any browser. |
 | [**SARIMA Simulation & Case Studies**](apps/sarima-simulation/) | Simulate seasonal ARIMA processes, explore seasonal patterns in the ACF/PACF, and follow Box–Jenkins case studies on seasonal data. Runs offline in any browser. |
 | [**Transfer Function Simulation & Case Studies**](apps/tf-simulation/) | Simulate input–output systems, prewhiten series, identify $(b, r, s)$ from the CCF, and follow transfer function case studies. Runs offline in any browser. |
+| [**Calendar Variation Simulation & Case Studies**](apps/calendar-variation/) | Build month-dummy, lead–lag and proportional-window regressors from official Ramadan, Idul Fitri and Idul Adha dates; simulate series with known holiday effects; follow seven Google Trends case studies from Indonesia with regression models with seasonal ARIMA errors, diagnostics at lunar lags, forecasts and a 24-model comparison. English and Indonesian. Runs offline in any browser. |
 | [**Time Series Data Generator**](apps/data-generator/) | Generate data from ARIMA, seasonal ARIMA and transfer function models (one or several inputs) with your own sample size, orders and parameters; see the series, ACF/PACF, CCF and prewhitening, estimates against the true values and diagnostics; download CSV/Excel and the R code that reproduces the data. Runs offline in any browser. |
 
 🌐 **Try them online:**
@@ -61,6 +64,7 @@ time-series/
 - SARIMA app: **https://novrisuhermi-sarima.share.connect.posit.cloud**
 - Transfer Function app: **https://novrisuhermi-tf.share.connect.posit.cloud**
 - Data Generator app: **https://novrisuhermi-ts-sim.share.connect.posit.cloud**
+- Calendar Variation app: **https://novrisuhermi.github.io/apps/calendar-variation/**
 
 ## ⚙️ Getting Started
 
